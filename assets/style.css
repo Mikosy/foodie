@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+i{
+    color: crimson;
+}
+a{
+    text-decoration: none;
+    color: rgba(18, 15, 15, 0.6);
+}
+ul li{
+    list-style: none;
+}
+body{
+    position: relative;
+}
+
+header{
+    margin-bottom: 50px;
+    padding: 20px 0;
+    border-bottom: 2px solid #acacac;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+nav .logo{
+    font-family: 'Lobster', cursive;
+    font-size: 1.2rem;
+}
+main .banner{
+    display: flex;
+    gap: 60px;
+}
+main .banner .left, .right{
+    width: 10%;
+    height: 85vh;
+    margin-top: 15px;
+}
+main .banner .left{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: #e7fafe;
+}
+main .banner .right{
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color: #e7fafe;
+}
+main .banner .middle{
+    width: 80%;
+    border-radius: 50px;
+    background-color: #e7fafe;
+    height: 90vh;
+}
+
+/* Middle Banner Fixes */
+main .banner .middle{
+    display: flex;
+}
+main .banner .middle .text{
+    width: 60%;
+    padding: 50px;
+}
+main .banner .middle .text h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 83px;
+}
+.middle .text .sub-text{
+    font-size: .89rem;
+    padding: 20px 0;
+    width: 70%;
+    color: rgba(86, 86, 86, 0.6);
+}
+.middle .text .span1, .span2{
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: .8rem;
+}
+.middle .text .span2{
+    margin-left:10px;
+}
+.middle .text .profile-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 190px;
+}
+.middle .text .profile-button .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.middle .text .profile-button .profile .profile-image img{
+    height: 50px;
+    width: 50px;
+}
+.middle .text .profile-button .profile-text{
+    line-height: 16px;
+}
+.middle .text .profile-button .profile-text h3{
+    padding-bottom: 5px;
+}
+.middle .text .profile-button .profile-text p{
+    font-size: .65rem;
+}
+.middle .text .profile-button button {
+    background: #000;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#button-span{
+    margin-left: 10px;
+}
+main .banner .middle .image-section{
+    width: 40%;
+}
+main .banner .middle .image-section img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    object-position: right center;
+}
+.floating-img{
+    position: absolute;
+    top: 20%;
+    left:48%;
+}
+.floating-img img{
+    height: 200px;
+}
